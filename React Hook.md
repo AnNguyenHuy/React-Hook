@@ -1,6 +1,10 @@
-#React Hook
+##React Hook
 
-##UseState: cho phép+ khai báo local state trong Function Component cách mà trước để chỉ dùng cho Class Component.
+- Dưới đây em có demo 1 app đếm số có sử dụng 1 số react hook: 
+	+ useState để lấy giá trị đếm ban đầu
+	+ useRef để lấy giá trị trước đó
+	+ useCallback cho hàm cộng và reset 
+	+ useEffect để thay đổi giá trị prevCount sau khi cộng
 
 ```javascript
 const demoHook = () => {
